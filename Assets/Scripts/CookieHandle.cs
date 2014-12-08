@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BoxHandle : MonoBehaviour {
+public class CookieHandle : MonoBehaviour {
 	public int xIndex;
 	public int yIndex;
 	[HideInInspector]
@@ -17,15 +17,15 @@ public class BoxHandle : MonoBehaviour {
 	}
 
 	void OnMouseDown(){
-		Generate.Instance.isDrag = true;
-		Generate.Instance.currentPos = new Vector3(xIndex,yIndex,Type);
+		GAction.Instance.isDrag = true;
+		GAction.Instance.currentPos = new Vector3(xIndex,yIndex,Type);
 	}
 
 
 
 	void OnMouseUp(){
-		Generate.Instance.isDrag = false;
-		Generate.Instance.EndAction();
+		GAction.Instance.isDrag = false;
+		GAction.Instance.EndAction();
 	}
 
     public void CheckStatus() {

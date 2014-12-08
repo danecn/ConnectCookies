@@ -1,10 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BoxHandle.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GAction.cs">
     <Files>
-      <File FileName="Assets/Scripts/BoxHandle.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Generate.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CookieHandle.cs" Line="41" Column="44" />
+      <File FileName="Assets/Scripts/Generate.cs" Line="69" Column="10" />
       <File FileName="Assets/Scripts/Grid.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GAction.cs" Line="113" Column="2" />
+      <File FileName="Assets/Scripts/ResouceStr.cs" Line="9" Column="51" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
